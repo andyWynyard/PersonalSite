@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <title>Andy Wynyard</title>
+  <title>Contact</title>
 
   <!-- Bootstrap -->
   <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -71,7 +71,7 @@
       <!-- wrapper for slides -->
 
       <div class="carousel-inner" role="listbox">
-        <div class="item active">
+        <div class="item">
           <img src="images/jeff-sheldon-3228.jpg" alt="computer image">
           <div class="carousel-caption">
             <h1>Creative solutions to your problems</h1>
@@ -85,7 +85,7 @@
           </div>
         </div>
 
-        <div class="item">
+        <div class="item active">
           <img src="images/laptop-from-above_4460x4460.jpg" alt="computer image">
           <div class="carousel-caption">
             <h1>Items mixed with coded decisions</h1>
@@ -105,10 +105,7 @@
             <h1>Test based development</h1>
           </div>
         </div>
-
       </div>
-
-
       <!-- controls or next/prev buttons -->
       <a class="left carousel-control" href="#my-slider" role="button" data-slide="prev">
         <span class="glyphicon glyphicon-chevron-left"></span>
@@ -116,13 +113,7 @@
       <a class="right carousel-control" href="#my-slider" role="button" data-slide="next">
         <span class="glyphicon glyphicon-chevron-right"></span>
       </a>
-
-
-
     </div>
-
-
-
 
   </div>
 
@@ -130,13 +121,18 @@
     <div class="container">
 
 
-      <h1>Background</h1>
-      <p>As a developer I have extensive understanding of Java, OOP, SQL, JPA, AWS, Linux, REST, Eclipse, HTML/CSS, JavaScript, Spring MVC, jQuery, AngularJS, Git/Github.</p>
-      <p>Within traditional schooling, I have an undergranduate degree in Political Science, and an MBA, as well as currently undertaking a Masters in Cyber Security.</p>
-
-      <p>I worked previously for the Governor of Colorado, and the British Embassy in Sweden.</p>
-
-      <p>I am also a qualified Drone pilot. I can't wait to see, and have a hand in, the technology behind automated drones reach it's potential and redefine transport, navigation and mapping.</p>
+      <h1>Contact</h1>
+      <form class="cf">
+        <div class="half left cf">
+          <input type="text" id="input-name" placeholder="Name">
+          <input type="email" id="input-email" placeholder="Email address">
+          <input type="text" id="input-subject" placeholder="Subject">
+        </div>
+        <div class="half right cf">
+          <textarea name="message" type="text" id="input-message" placeholder="Message"></textarea>
+        </div>
+        <input type="submit" value="Submit" id="input-submit">
+      </form>
     </div>
   </div>
 
@@ -154,6 +150,5 @@
   </footer>
 
 </body>
-
 
 </html>
